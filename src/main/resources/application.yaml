@@ -2,11 +2,11 @@ spring:
   application:
     name: my-spring-project
   
-  # Database Configuration
+  # Database Configuration for Docker
   datasource:
     url: jdbc:postgresql://localhost:5432/mydatabase
-    username: postgres
-    password: password
+    username: dbuser
+    password: dbpassword
     driver-class-name: org.postgresql.Driver
   
   # JPA/Hibernate Configuration
